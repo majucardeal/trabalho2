@@ -15,6 +15,7 @@
   </head>
   <body>
     <nav class="navbar navbar-light">
+    	<img src="img/linhas.png" id="linhas">
       <a class="navbar-brand" href="#"><img src="img/youtube.png"></a>
       <form class="form-inline">
         <div class="input-group">
@@ -24,34 +25,45 @@
           </div>
         </div>
       </form>
-      <div class="dropdown"  id="margemesquerda">
+      <div class="dropdown">
         <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img class="mb-3" src="img/camera.png">
+          <img class="mb-3 pt-1" src="img/camera.png">
         </a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
           <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
         </div>
       </div>
-      <div class="dropdown">
+      <div class="dropdown dropleft">
         <a href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i class="fas fa-th mb-3"></i>
         </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
-          <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
-          <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
+        <div class="dropdown-menu" id="dropdown2" aria-labelledby="dropdownMenuLink2">
+          <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube TV</a>
+          <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Gaming</a>
+		  <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube Music</a>
+          <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Kids</a>
+		  <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#"><img src="img/escola.png">Escola de Criadores de Conteúdo</a>
+          <a class="dropdown-item" href="#"><img src="img/escola.png">Youtube para Artistas</a>
+
+
         </div>
       </div>
-      <div class="dropdown">
+      <div class="dropdown dropleft">
         <a href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img class="mb-2" src="img/mensagens.png">
         </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink3">
-          <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
-          <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
+        <div class="dropdown-menu" id="dropdown3" aria-labelledby="dropdownMenuLink3">
+        	<div class="row bg-dark">
+        		<div class="col">
+        			Mensagens
+        		</div>
+        	</div>
         </div>
       </div>
-      <div class="dropdown" id="margemdireita">
+      <div class="dropdown">
         <a href="#" role="button" id="dropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img class="mb-2" src="img/config.png">
         </a>
@@ -62,6 +74,16 @@
       </div>
       <button class="mb-2" id="botaologin"><a href="">FAZER LOGIN</a></button>
     </nav>
+
+    <div class="container-fluid">
+    	<div class="col-2" id="colesquerda">
+    		<button id="inicio" class="btn botao"><a href="#"><img src="img/inicio.png">Início</a></button>
+    		<button class="btn botao"><a href="#"><img src="img/emalta.png">Em alta</a></button>
+    		<button class="btn botao"><a href="#"><img src="img/historic.png">Histórico</a></button>
+    	<div class="dropdown-divider"></div>
+
+    	</div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

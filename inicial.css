@@ -1,12 +1,10 @@
-.navbar-brand{
-	margin-left: 4%;
-}
+
 .fa-search{
 	font-size: 12px;
 	margin-left: 28%;
 }
 #inputpesquisa{
-	width: 540px;
+	width: 500px;
 	height: 28px;
 	border-radius: 0;
 	margin-top: -1%;
@@ -20,19 +18,71 @@
 	text-decoration: none
 }
 .dropdown{
-	margin-right: -12%;
+	margin-right: -19%;
 }
+.dropdown img{
+	margin-right: 3%;
 
-#margemesquerda{
 }
 
 #botaologin a{
 	text-decoration: none;
 	font-size: 15px;
-	font-family: inherit;
 }
 #botaologin{
 	border: none;
 	background-color: white;
-	margin-left: 2%;
+	margin-left: 1%;
+}
+#dropdown2{
+	margin-top: 180%;
+	width: 300px;
+	margin-right: -180%;
+}
+.dropdown-menu{
+	border-radius: 0;
+	font-size: 14px;
+	font-family: Arial;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#dropdown3{
+	width: 350px;
+	margin-top: 180%;
+	margin-right: -180%;
+}
+#linhas{
+	margin-right: -17%;
+	margin-left: 1%;
+}
+.container-fluid{
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #EFEFEF;
+}
+#colesquerda{
+	background-color: #F5F5F5;
+	padding:0;
+	margin-left: -2%;
+	padding-top: 0.5%;
+}
+.botao{
+	background-color:#F5F5F5;
+	border:0;
+	width: 100%;
+}
+.botao a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	font-family:Arial;
+}
+#inicio{
+	background-color:#D3D3D3;
+}
+.botao img{
+	margin-right: 2%;
+
+}
+#colesquerda button:hover{
+	background-color: #EFEFEF;
 }
