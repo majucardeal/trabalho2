@@ -1,121 +1,292 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="inicial.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="inicial.css">
 
-    <title>Youtube</title>
+  <title>Youtube</title>
   <link rel="shortcut icon" href="img/iconeyoutube.png">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-light">
-    	<img src="img/linhas.png" id="linhas">
-      <a class="navbar-brand" href="#"><img src="img/youtube.png"></a>
-      <form class="form-inline">
-        <div class="input-group">
-          <input type="text" class="form-control" id="inputpesquisa" placeholder="Pesquisar" aria-label="Username" aria-describedby="iconinput">
-          <div class="input-group-prepend">
-            <span class="input-group-text" id="iconinput"><i class="fas fa-search"></i></span>
-          </div>
-        </div>
-      </form>
-      <div class="dropdown">
-        <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img class="mb-3 pt-1" src="img/camera.png">
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
-          <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
-        </div>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-light">
+   <img src="img/linhas.png" id="linhas">
+   <a class="navbar-brand" href="#"><img src="img/youtube.png"></a>
+   <form class="form-inline">
+    <div class="input-group">
+      <input type="text" class="form-control" id="inputpesquisa" placeholder="Pesquisar" aria-label="Username" aria-describedby="iconinput">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="iconinput"><i class="fas fa-search"></i></span>
       </div>
-      <div class="dropdown dropleft">
-        <a href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-th mb-3"></i>
-        </a>
-        <div class="dropdown-menu" id="dropdown2" aria-labelledby="dropdownMenuLink2">
-          <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube TV</a>
-          <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Gaming</a>
-		  <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube Music</a>
-          <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Kids</a>
-		  <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#"><img src="img/escola.png">Escola de Criadores de Conteúdo</a>
-          <a class="dropdown-item" href="#"><img src="img/escola.png">Youtube para Artistas</a>
+    </div>
+  </form>
+  <div class="dropdown">
+    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img class="mb-3 pt-1" src="img/camera.png">
+    </a>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
+      <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
+    </div>
+  </div>
+  <div class="dropdown dropleft">
+    <a href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-th mb-3"></i>
+    </a>
+    <div class="dropdown-menu" id="dropdown2" aria-labelledby="dropdownMenuLink2">
+      <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube TV</a>
+      <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Gaming</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube Music</a>
+      <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Kids</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#"><img src="img/escola.png">Escola de Criadores de Conteúdo</a>
+      <a class="dropdown-item" href="#"><img src="img/escola.png">Youtube para Artistas</a>
 
 
-        </div>
-      </div>
-      <div class="dropdown dropleft">
-        <a href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img class="mb-2" src="img/mensagens.png">
-        </a>
-        <div class="dropdown-menu" id="dropdown3" aria-labelledby="dropdownMenuLink3">
-        	<div class="row bg-dark">
-        		<div class="col">
-        			Mensagens
-        		</div>
-        	</div>
-        </div>
-      </div>
-      <div class="dropdown">
-        <a href="#" role="button" id="dropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img class="mb-2" src="img/config.png">
-        </a>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink4">
-          <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
-          <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
-        </div>
-      </div>
-      <button class="mb-2" id="botaologin"><a href="">FAZER LOGIN</a></button>
-    </nav>
+    </div>
+  </div>
+  <div class="dropdown dropleft">
+    <a href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img class="mb-2" src="img/mensagens.png">
+    </a>
+    <div class="dropdown-menu" id="dropdown3" aria-labelledby="dropdownMenuLink3">
+     <div class="row bg-dark">
+      <div class="col">
+       Mensagens
+     </div>
+   </div>
+ </div>
+</div>
+<div class="dropdown">
+  <a href="#" role="button" id="dropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img class="mb-2" src="img/config.png">
+  </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink4">
+    <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
+    <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
+  </div>
+</div>
+<button class="mb-2" id="botaologin"><a href="">FAZER LOGIN</a></button>
+</nav>
 
-  <div class="container-fluid">
+<div class="container-fluid">
+  <div class="row">
+   <div class="col-2" id="colesquerda">
+    <button id="inicio" class="btn botao"><a href="#"><img src="img/inicio.png">Início</a></button>
+    <button class="btn botao"><a href="#"><img src="img/emalta.png">Em alta</a></button>
+    <button class="btn botao"><a href="#"><img src="img/historic.png">Histórico</a></button>
+    <div class="dropdown-divider"></div>
+    <h6 class="text-secondary ml-5"> O MELHOR DO YOUTUBE </h6>
+    <button class="btn botao"><a href="#"><img src="img/musica.png">Música</a></button>
+    <button class="btn botao"><a href="#"><img src="img/esportes.png">Esportes</a></button>
+    <button class="btn botao"><a href="#"><img src="img/jogos.png">Jogos</a></button>
+    <button class="btn botao"><a href="#"><img src="img/filmes.png">Filmes</a></button>
+    <button class="btn botao"><a href="#"><img src="img/noticias.png">Notícias</a></button>
+    <button class="btn botao"><a href="#"><img src="img/ao vivo.png">Ao vivo</a></button>
+    <button class="btn botao"><a href="#"><img src="img/video360.png">Vídeo em 360°</a></button>
+    <div class="dropdown-divider"></div>
+    <div class="ml-5">
+      <p> Faça login agora para ver seus canais e recomendações! </p>
+      <a href="#">FAZER LOGIN</a>
+    </div>
+  </div>
+  <div class="col" id="coldireita">
+    <div class="row" id="propagandas">
+      <div class="col-2">
+        <a href="https://www.youtube.com/watch?v=fY8hog_UKGc"><img id="propaganda1" src=" img/prop1.png"></a>
+      </div>
+      <div class="col" id="propaganda2">
+        <a href="https://www.youtube.com/user/nissanoficial"><img src="img/prop2.png"></a>
+        <a href="https://www.youtube.com/user/nissanoficial"><img src="img/prop3.png"></a>
+      </div>
+    </div>
     <div class="row">
-    	<div class="col-2" id="colesquerda">
-    		<button id="inicio" class="btn botao"><a href="#"><img src="img/inicio.png">Início</a></button>
-    		<button class="btn botao"><a href="#"><img src="img/emalta.png">Em alta</a></button>
-    		<button class="btn botao"><a href="#"><img src="img/historic.png">Histórico</a></button>
-    	  <div class="dropdown-divider"></div>
-        <h6 class="text-secondary ml-5"> O MELHOR DO YOUTUBE </h6>
-        <button class="btn botao"><a href="#"><img src="img/musica.png">Música</a></button>
-        <button class="btn botao"><a href="#"><img src="img/esportes.png">Esportes</a></button>
-        <button class="btn botao"><a href="#"><img src="img/jogos.png">Jogos</a></button>
-        <button class="btn botao"><a href="#"><img src="img/filmes.png">Filmes</a></button>
-        <button class="btn botao"><a href="#"><img src="img/noticias.png">Notícias</a></button>
-        <button class="btn botao"><a href="#"><img src="img/ao vivo.png">Ao vivo</a></button>
-        <button class="btn botao"><a href="#"><img src="img/video360.png">Vídeo em 360°</a></button>
-        <div class="dropdown-divider"></div>
-        <div class="ml-5">
-          <p> Faça login agora para ver seus canais e recomendações! </p>
-          <a href="#">FAZER LOGIN</a>
+      <h6 class="youtube mb-4" id="emalta">Em alta</h6>
+    </div>
+    <div class="row videos" id="videosemalta" >
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
         </div>
-    	</div>
-      <div class="col" id="coldireita">
-          <div class="row" id="propagandas">
-            <div class="col-2">
-              <a href="https://www.youtube.com/watch?v=fY8hog_UKGc"><img id="propaganda1" src=" img/prop1.png"></a>
-            </div>
-            <div class="col" id="propaganda2">
-              <a href="https://www.youtube.com/user/nissanoficial"><img src="img/prop2.png"></a>
-              <a href="https://www.youtube.com/user/nissanoficial"><img src="img/prop3.png"></a>
-            </div>
-          </div>
-          <div class="row">
-            <h6 id="youtubemixes"> Youtube Mixes </h6> <small class="text-secondary ml-2"> Playlists contínuas baseadas em uma música ou em um artista </small>
-          </div>
-
-          </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
         </div>
       </div>
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+      <div class="col">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+
+    <div class="row">
+      <h6 class="youtube mb-4">Recomendados</h6> 
+    </div>
+    <div class="row videos" >
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+      <div class="col video">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+      <div class="col">
+        <img class="mb-3" src="img/video1.png">
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="titulo"> Lula ficou putasso </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/channel/UCKlKMRzbOebHD0Iqkp8iDlQ" class="subtitulo">Lula é lindo</a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">2,4 mi visualizações
+          </a>
+        </div>
+        <div class="row">
+          <a href="https://www.youtube.com/watch?v=h65yNrVyb-8" class="subtitulo">1 dia atrás</a>
+        </div>
+      </div>
+    </div>
 
 
   </div>
+</div>
+</div>
+
+
+</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -99,6 +99,44 @@
 #propaganda2{
 	margin-left: 22%;
 }
-#youtubemixes{
-	margin-left: 8.5%;
+.youtube{
+	margin-left: 8.25%;
+}
+#coldireita hr{
+	width: 80%;
+	margin-right: 12.5%;
+}
+.videos{
+	margin-left: 6%;
+	mar
+}
+.titulo{
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+.titulo:hover{
+	text-decoration: none;
+	color: black;
+}
+.subtitulo{
+	font-size: 12px;
+	text-decoration: none;
+	color: gray;
+}
+.subtitulo:hover{
+	text-decoration:none;
+	color: gray;
+}
+#videosemalta{
+	margin-top: -4%;
+}
+#emalta{
+	margin-top: -7%;
+}
+.videos .col .row{
+	margin-left: 1.5%;
+}
+.video{
+	margin-right: -14.5%;
 }
