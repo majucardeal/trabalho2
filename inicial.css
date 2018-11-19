@@ -24,10 +24,21 @@
 	margin-right: 3%;
 
 }
+.icone{
+	margin-left: 18%;
+	margin-top: 0.5%;
+	float:left;
+}
+.iconetexto{
+	float:right;
+	margin-right: 50%;
+	margin-top: 1%;
+}
 
 #botaologin a{
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 14px;
+	font-family:'Noto';
 }
 #botaologin{
 	border: none;
@@ -95,9 +106,11 @@
 }
 #propaganda1{
 	margin-left: 50%;
+	width: 400px;
+
 }
 #propaganda2{
-	margin-left: 22%;
+	margin-left: 16%;
 }
 .youtube{
 	margin-left: 8.25%;
@@ -107,8 +120,7 @@
 	margin-right: 12.5%;
 }
 .videos{
-	margin-left: 6%;
-	mar
+	margin-left: 6.5%;
 }
 .titulo{
 	font-size: 14px;
@@ -129,14 +141,38 @@
 	color: gray;
 }
 #videosemalta{
-	margin-top: -4%;
+	margin-top: -3%;
 }
 #emalta{
-	margin-top: -7%;
+	margin-top: -6%;
 }
 .videos .col .row{
-	margin-left: 1.5%;
+	margin-left: 2%;
 }
 .video{
 	margin-right: -14.5%;
 }
+
+/* FIM DA PAGINA 1 
+
+========================================
+
+ INÍCIO DA PAGINA 2 */
+
+ #colunaesquerda{
+ 	margin-left: 4.5%;
+ 	margin-top: 1%;
+ }
+ #linhavideo{
+ 	width: 103%;
+ }
+ #fotoperfil{
+ 	border-radius: 50%;
+ }
+ #publicacao{
+ 	font-size: 12px;
+ 	margin-top: -6%;
+ }
+ #nomecanal{
+ 	margin-top: -50%;
+ }
