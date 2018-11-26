@@ -62,8 +62,8 @@
 	margin-right: -180%;
 }
 #linhas{
-	margin-right: -17%;
-	margin-left: 1%;
+	margin-right: -20%;
+	margin-left: 0.5%;
 }
 .container-fluid{
 	border-top-style: solid;
@@ -175,4 +175,9 @@
  }
  #nomecanal{
  	margin-top: -50%;
+ }
+ .user{
+ 	border-radius: 50%;
+ 	width: 3%; 
+ 	height: 2%;
  }
