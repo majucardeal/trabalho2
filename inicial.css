@@ -29,8 +29,6 @@ fa-search{
 	float:left;
 }
 .iconetexto{
-	float:right;
-	margin-right: 50%;
 	margin-top: 1%;
 }
 
@@ -75,6 +73,7 @@ fa-search{
 	padding:0;
 	margin-left: -2%;
 	padding-top: 0.5%;
+	font-size: 16px;
 }
 .botao{
 	background-color:#F5F5F5;
@@ -84,15 +83,12 @@ fa-search{
 .botao a{
 	text-decoration: none;
 	color: black;
-	font-size: 14px;
+	font-size: 16px;
 	font-family:Arial;
 }
 #inicio{
 	background-color:#D3D3D3;
-}
-.botao img{
-	margin-right: 2%;
-
+	border-radius:0;
 }
 #colesquerda button:hover{
 	background-color: #EFEFEF;
@@ -107,7 +103,19 @@ fa-search{
 #propaganda1{
 	margin-left: 50%;
 	width: 400px;
-
+}
+.links{
+	margin-left: 26%;
+}
+.links a{
+	text-decoration: none;
+	color:gray;
+	font-family:Arial;
+	font-size: 13px;
+	font-weight: bold;
+}
+.links .row{
+	margin-top: 2%;
 }
 #propaganda2{
 	margin-left: 16%;
@@ -126,13 +134,14 @@ fa-search{
 	font-size: 14px;
 	text-decoration: none;
 	color: black;
+	margin-bottom: 2.5%;
 }
 .titulo:hover{
 	text-decoration: none;
 	color: black;
 }
 .subtitulo{
-	font-size: 12px;
+	font-size: 14px;
 	text-decoration: none;
 	color: gray;
 }
@@ -141,18 +150,23 @@ fa-search{
 	color: gray;
 }
 #videosemalta{
-	margin-top: -3%;
+	margin-top: -22%;
 }
 #emalta{
-	margin-top: -6%;
+	margin-top: -25%;
 }
 .videos .col .row{
 	margin-left: 2%;
 }
 .video{
-	margin-right: -14.5%;
+	margin-right: -10.5%;
 }
 
+
+.fa-plus-circle{
+	font-size: 12px;
+	color: lightgray;
+}
 /* FIM DA PAGINA 1 
 
 ========================================
