@@ -1,5 +1,4 @@
-
-.fa-search{
+fa-search{
 	font-size: 12px;
 	margin-left: 28%;
 }
@@ -47,8 +46,9 @@
 }
 #dropdown2{
 	margin-top: 180%;
-	width: 300px;
+	width: 350px;
 	margin-right: -180%;
+	font-size: 17px;
 }
 .dropdown-menu{
 	border-radius: 0;
