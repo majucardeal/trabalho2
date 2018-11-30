@@ -4,13 +4,13 @@ fa-search{
 }
 #inputpesquisa{
 	width: 500px;
-	height: 28px;
+	height: 30px;
 	border-radius: 0;
 	margin-top: -1%;
 }
 #iconinput{
 	width: 60px;
-	margin-top: -10%;
+	margin-top: -8%;
 }
 .dropdown a{
 	color: gray;
@@ -153,13 +153,13 @@ fa-search{
 	margin-top: -22%;
 }
 #emalta{
-	margin-top: -25%;
+	margin-top: -24%;
 }
 .videos .col .row{
 	margin-left: 2%;
 }
 .video{
-	margin-right: -10.5%;
+	margin-right: -15%;
 }
 
 
@@ -182,16 +182,21 @@ fa-search{
  }
  #fotoperfil{
  	border-radius: 50%;
- }
- #publicacao{
- 	font-size: 12px;
- 	margin-top: -6%;
- }
- #nomecanal{
- 	margin-top: -50%;
- }
+ 	width: 3.5%;
+ 	height:3%;
+ 	 }
+
+
  .user{
  	border-radius: 50%;
  	width: 3%; 
  	height: 2%;
+ }
+ #mostrarmais a:hover{
+ 	text-decoration:none;
+ }
+ #mostrarmais a{
+ 	color: gray;
+ 	font-size: 13px;
+ 	margin-left: -46%;
  }
