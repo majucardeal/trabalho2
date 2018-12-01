@@ -7,7 +7,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="inicial.css">
+  <link rel="stylesheet" type="text/css" href="css.css">
 
   <title>Youtube</title>
   <link rel="shortcut icon" href="img/iconeyoutube.png">
@@ -16,60 +16,77 @@
 <body>
   <nav class="navbar navbar-light">
    <img src="img/linhas.png" id="linhas">
-   <a class="navbar-brand" href="#"><img src="img/youtube.png" style="margin-left: -50%"></a>
+   <a class="navbar-brand" href="inicial.html"><img src="img/youtube.png"></a>
    <form class="form-inline">
     <div class="input-group">
       <input type="text" class="form-control" id="inputpesquisa" placeholder="Pesquisar" aria-label="Username" aria-describedby="iconinput">
-      <div class="input-group-prepend">
-        <span class="input-group-text" id="iconinput"><i class="fas fa-search"></i></span>
+      <div class="input-group-append">
+        <span class="input-group-text" id="iconinput"><i class="fas fa-keyboard mr-2" ></i> <i class="fas fa-search"></i></span>
       </div>
     </div>
-  </form>
-  <div class="dropdown">
-    <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <img class="mb-3 pt-1" src="img/camera.png">
-    </a>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-      <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
-      <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
-    </div>
   </div>
-  <div class="dropdown dropleft">
-    <a href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <i class="fas fa-th mb-3"></i>
-    </a>
-    <div class="dropdown-menu" id="dropdown2" aria-labelledby="dropdownMenuLink2">
-      <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube TV</a>
-      <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Gaming</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#"><img src="img/youtubetv.png">Youtube Music</a>
-      <a class="dropdown-item" href="#"><img src="img/youtubegaming.png">Youtube Kids</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#"><img src="img/escola.png">Escola de Criadores de Conteúdo</a>
-      <a class="dropdown-item" href="#"><img src="img/escola.png">Youtube para Artistas</a>
+</form>
+<div class="dropdown">
+  <a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img class="mb-3 pt-1" src="img/camera.png">
+  </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item  mt-2 " href="#"><img class="pr-4" src="img/video.png">  Enviar vídeo</a>
+    <a class="dropdown-item  mt-2 " href="#"><img class="pr-4" src="img/transmitir.png">Transmitir ao vivo</a>
+  </div>
+</div>
+<div class="dropdown dropleft">
+  <a href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fas fa-th mb-3"></i>
+  </a>
+  <div class="dropdown-menu" id="dropdown2" aria-labelledby="dropdownMenuLink2">
+    <a class="dropdown-item mt-2" href="#"><img class="mr-4" src="img/youtubetv.png">Youtube TV</a>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-4" src="img/youtubegaming.png">Youtube Gaming</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-4" src="img/youtubetv.png">Youtube Music</a>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-4" src="img/youtubegaming.png">Youtube Kids</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-4" src="img/escola.png">Escola de Criadores de Conteúdo</a>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-4" src="img/escola.png">Youtube para Artistas</a>
 
 
-    </div>
   </div>
-  <div class="dropdown dropleft">
-    <a href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <img class="mb-2" src="img/mensagens.png">
-    </a>
-    <div class="dropdown-menu" id="dropdown3" aria-labelledby="dropdownMenuLink3">
-     <div class="row bg-dark">
-      <div class="col">
-       Mensagens
-     </div>
+</div>
+<div class="dropdown dropleft">
+  <a href="#" role="button" id="dropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img class="mb-2" src="img/mensagens.png">
+  </a>
+  <div class="dropdown-menu" id="dropdown3" aria-labelledby="dropdownMenuLink3">
+   <div class="row" style="background-color: #EFEFEF; width: 395px;margin-left:0.5%;height: 40px; margin-top: -2%; ">
+    <div class="col pt-2">
+     <span style="font-size: 16px; padding-left: 4%;">Mensagens</span>
+     <div class="dropdown-divider"></div>
    </div>
  </div>
+ <div style="text-align:center; padding: 20%">
+  <h6 class="text-secondary">Faça login para bater papo </h6>
+  <p> Você pode conversar com seus amigos sem sair do Youtube. </p>
+  <button class="btn btn-primary" style="font-size: 13px">FAZER LOGIN</button>
+
 </div>
-<div class="dropdown">
+</div>
+</div>
+</div>
+<div class="dropdown dropleft">
   <a href="#" role="button" id="dropdownMenuLink4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <img class="mb-2" src="img/config.png">
   </a>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink4">
-    <a class="dropdown-item" href="#"><img src="img/video.png">  Enviar vídeo</a>
-    <a class="dropdown-item" href="#"><img src="img/transmitir.png">Transmitir ao vivo</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink4" style="width: 300px;margin-top: 300%">
+    <a class="dropdown-item mt-2" href="#"><img class="mr-3" src="img/tema.png">Tema escuro: desativado <i class="float-right mt-1 fas fa-angle-right"></i></a>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-3" src="img/idioma.png">Idioma: Português<i class="float-right mt-1 fas fa-angle-right"></i></a>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-3" src="img/configu.png">Configurações <i class="float-right mt-1 fas fa-angle-right"></i></a>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-3" src="img/ajuda.png">Ajuda <i class="float-right mt-1 fas fa-angle-right"></i></a>
+    <a class="dropdown-item mt-2" href="#"><img class="mr-3" src="img/feedback.png">Enviar feedback <i class="float-right mt-1 fas fa-angle-right"></i></a>
+    <div class="dropdown-divider"></div>
+    <div style="color: lightgray; margin-top: 5%">
+      <a class="dropdown-item mt-2" href="#">Local: Brasil <i class="float-right mt-1 fas fa-angle-right"></i></a>
+      <a class="dropdown-item mt-2" href="#">Modo restrito: desativado <i class="float-right mt-1 fas fa-angle-right"></i></a> 
+    </div>
   </div>
 </div>
 <button class="mb-2" id="botaologin"><a href="">FAZER LOGIN</a></button>
@@ -79,39 +96,71 @@
     <div class="col-8" id="colunaesquerda">
       <img src="img/pablovittar.png">
       <div class="row">
-        <p class="pt-4 ml-3" style="font-size:18px; font-weight:200; font-family: Arial, sans-serif;"> Pabllo Vittar dá soco em Jair Bolsonaro e futuro presidente morre </p>
+        <p class="pt-4 ml-3 arial" style="font-size:18px;"> Pabllo Vittar dá soco em Jair Bolsonaro e futuro presidente morre </p>
+      </div>
+      <div class="row" style="font-size: 16px">
+        <div class="col-7 arial">
+          <p class="text-secondary" style=" margin-top: -0.5%"> 530 visualizações</p>
+        </div>
+        <div class="col linhalikes">
+          <a href=""><i class="fas fa-thumbs-up mr-1 ml-5"></i> 12,5 MIL </a><a href=""><i class="ml-4 fas fa-thumbs-down"></i> 10 </a><a href=""> <img class="ml-3" src="img/compartilhar.png"> COMPARTILHAR </a> <a href=""><img class="ml-3" src="img/salvar.png"> SALVAR </a> <a href=""><img class="ml-3" src="img/bolinhas.png"></a>
+        </div>
+        <hr id="linhavideo">
       </div>
       <div class="row">
+        <div class="col-10">
+          <div class="row">
+            <img id="fotoperfil" class="ml-2" src="img/pablo.jpg">
+            <div>
+              <span class="ml-2 arial" style="margin-top: -20%; font-weight:510;; font-size:14px">Pabllo Vittar</span> 
+              <p class="text-secondary ml-2" style="font-size:12px; margin-top: -2%"> Publicado em 18 de nov de 2018 </p>
+            </div>
+            <div class="mt-5 pt-2" style="margin-left:-15.5%">
+              <p style="font-size:14px; font-family: Arial;"> Ah fodase </p>
+              <span id="mostrarmais"><a href="#">MOSTRAR MAIS</a></span>
+            </div>
+          </div>
+        </div>
         <div class="col">
-          <p class="text-secondary" style="font-size: 16px; margin-top: -0.5%"> 53.217.581 visualizações</p>
-          <hr id="linhavideo">
+          <button class="btn" style="background-color:red; font-weight: bold; color: white; padding: 6%; font-size: 15px"> INSCREVER-SE  <span style="color:lightgray">25 MIL</span></button>
         </div>
+
       </div>
-      <div class="row">
-        <img id="fotoperfil" class="ml-2" src="img/pablo.jpg">
-        <div>
-          <span class="ml-2" style="font-weight:510; font-family:  Arial,; font-size:14px">Pabllo Vittar</span> 
-          <p class="text-secondary ml-2" style="font-size:12px; margin-top: -2%"> Publicado em 18 de nov de 2018 </p>
-          <button class="btn btn-danger"> INSCREVER-SE </button>
-        </div>
-        <div class="mt-5 pt-2">
-            <p style="margin-left:-46%; font-size:14px; font-family: Arial;"> Mark Ronson feat. Miley Cyrus - Nothing Breaks Like a Heart </p>
-            <p style="margin-left:-46%; font-size:14px; font-family: Arial;"> Mark Ronson feat. Miley Cyrus - Nothing Breaks Like a Heart </p>
-            <span id="mostrarmais"><a href="#">MOSTRAR MAIS</a></span>
-        </div>
-      </div>
-      <hr>
+      <hr class="mb-4">
       <div class="ml-3">
-        <div class="row mt-2">
-          <p > 25.225 comentários </p> <span class="text-secondary"> CLASSIFICAR POR </span>
+        <div class="row mt-2 arial" >
+          <p class="ml-2" style="font-size:16px;"> 3 comentários </p> <img style="width: 2%; height: 2%;margin-left: 6%"; src="img/classificar.png"><span class="text-secondary ml-2" style="font-weight: bold" style="font-size: 15px"> CLASSIFICAR POR </span>
         </div>
-        <div class="row mt-1 mb-1">
+        <div class="row mt-3 mb-1" >
           <img src="img/user.png" class="user"> <small class="text-secondary ml-2"> Adicionar um comentário público...</small>
         </div>
         <hr style="width: 101%; margin-top: -1.5%; margin-left: 2.5%">
-        <div class="row mt-5" >
-          <img src="img/user.png" class="user"> <h6> lalalallala </h6> <small class="text-secondary">4 horas atrás</small>
-          <p>Melhores imitações</p>
+        <div class="row mt-5 arial" >
+          <img src="img/user.png" class="user mr-2"> <a class="nome" href="#"><h6>Sei lá o que </a> </h6> <a href="#" class="link"><small class=" ml-2 horario">4 horas atrás</small></a>
+        </div>
+        <div class="row comentario">
+          muito bom
+        </div>
+        <div class="row likes">
+          <a href="#"><i class="fas fa-thumbs-up mr-4"></i></a> <a href=""><i class="fas fa-thumbs-down"></i></a><span style="font-size:13.5px" class="text-secondary ml-4 responder"><a href="#">RESPONDER</a></span>
+        </div>
+        <div class="row mt-4 arial" >
+          <img src="img/user.png" class="user mr-2"> <a class="nome" href="#"><h6>Top mesmo 2018 </a> </h6> <a href="#" class="link"><small class=" ml-2 horario">10 horas atrás</small></a>
+        </div>
+        <div class="row comentario">
+          ameiii
+        </div>
+        <div class="row likes">
+          <a href="#"><i class="fas fa-thumbs-up mr-4"></i></a> <a href=""><i class="fas fa-thumbs-down"></i></a><span style="font-size:13.5px" class="text-secondary ml-4 responder"><a href="#">RESPONDER</a></span>
+        </div>
+        <div class="row mt-4 arial" >
+          <img src="img/user.png" class="user mr-2"> <a class="nome" href="#"><h6>Teo teo loco demais</a> </h6> <a href="#" class="link"><small class=" ml-2 horario">3 dias atrás</small></a>
+        </div>
+        <div class="row comentario">
+          É ISSO AI
+        </div>
+        <div class="row likes">
+          <a href="#"><i class="fas fa-thumbs-up mr-4"></i></a> <a href=""><i class="fas fa-thumbs-down"></i></a><span style="font-size:13.5px" class="text-secondary ml-4 responder"><a href="#">RESPONDER</a></span>
         </div>
       </div>
     </div>
@@ -120,19 +169,18 @@
         <img src="img/prop4.png">
       </div>
 
-
       <div class="row">
         <div class="col mt-4" style="margin-left: 6%">
-          <img src="img/video1.png">
+          <a href="#"><img src="img/video1.png"></a>
         </div>
         <div class="col pt-3">
-          <div style="margin-left: -10%; margin-top: 2%">
+          <div class="videorecomendado">
             <div class="row">
-              Lula ficando putasso
+              <a href="#">Lula ficando putasso</a>
             </div>
-            <div class="text-secondary" style="font-size: 13px">
+            <div class="text-secondary" style="font-size: 14px">
               <div class="row">
-                Lulinha
+                <a href="#">Lulinha</a>
               </div>
               <div class="row">
                 18 mi visualizações
@@ -144,16 +192,16 @@
 
       <div class="row">
         <div class="col mt-4" style="margin-left: 6%">
-          <img src="img/video1.png">
+          <a href="#"><img src="img/video1.png"></a>
         </div>
         <div class="col pt-3">
-          <div style="margin-left: -10%; margin-top: 2%">
+          <div class="videorecomendado">
             <div class="row">
-              Lula ficando putasso
+              <a href="#">Lula ficando putasso</a>
             </div>
-            <div class="text-secondary" style="font-size: 12px">
+            <div class="text-secondary" style="font-size: 14px">
               <div class="row">
-                Lulinha
+                <a href="#">Lulinha</a>
               </div>
               <div class="row">
                 18 mi visualizações
@@ -161,10 +209,180 @@
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="row">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-1">
+        <div class="col mt-4" style="margin-left: 6%">
+          <a href="#"><img src="img/video1.png"></a>
+        </div>
+        <div class="col pt-3">
+          <div class="videorecomendado">
+            <div class="row">
+              <a href="#">Lula ficando putasso</a>
+            </div>
+            <div class="text-secondary" style="font-size: 14px">
+              <div class="row">
+                <a href="#">Lulinha</a>
+              </div>
+              <div class="row">
+                18 mi visualizações
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      </body>
-      </html>
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+    </html>

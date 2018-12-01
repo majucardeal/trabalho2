@@ -55,7 +55,7 @@ fa-search{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #dropdown3{
-	width: 350px;
+	width: 400px;
 	margin-top: 180%;
 	margin-right: -180%;
 }
@@ -118,7 +118,7 @@ fa-search{
 	margin-top: 2%;
 }
 #propaganda2{
-	margin-left: 16%;
+	margin-left: 20%;
 }
 .youtube{
 	margin-left: 8.25%;
@@ -182,8 +182,8 @@ fa-search{
  }
  #fotoperfil{
  	border-radius: 50%;
- 	width: 3.5%;
- 	height:3%;
+ 	width: 5%;
+ 	height:28%;
  	 }
 
 
@@ -198,5 +198,65 @@ fa-search{
  #mostrarmais a{
  	color: gray;
  	font-size: 13px;
- 	margin-left: -46%;
  }
+ .comentario{
+ 	margin-left: 2.8%; margin-top: -1.3%; font-size: 13.5px
+ }
+ .nome{
+ 	font-weight:550; margin-top: 0.2%; font-size:13.5px;
+ 	color: black;
+ }
+ .nome:hover{
+ 	text-decoration: none;
+ 	color:black;
+ }
+ .horario{
+ 		margin-top: 0.2%
+ }
+ .arial{
+ 	font-family: Arial;
+ }
+ .likes{
+ 	margin-left: 2.8%;
+ 	margin-top: 0.5%;
+ }
+ .likes a{
+ 	color: gray;
+ }
+ .likes a:hover{
+ 	text-decoration: none;
+ 	color: black;
+ }
+.responder a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.deslike{
+	margin-bottom: -10%;
+}
+.link:hover{
+	text-decoration:none;
+	color: black;
+}
+.link{
+	color: gray;
+}
+.linhalikes a{
+	color:gray;
+}
+.linhalikes a{
+	text-decoration: none;
+	color:gray;
+}
+.videorecomendado{
+	margin-top: 3%;
+	margin-left: -13%;
+}
+.videorecomendado a{
+	color: black;
+}
+.videorecomendado a:hover{
+	color: black;
+	text-decoration: none;
+}
